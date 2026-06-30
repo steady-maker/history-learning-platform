@@ -121,7 +121,7 @@ sync_questions_to_es()     # 数据库数据变更后执行
 
 ## 截图
 
-见 `docs/screenshots/` 目录（需手动添加运行截图）
+见 `docs/screenshots/` 目录
 
 ## 注意
 
