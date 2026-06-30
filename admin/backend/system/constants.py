@@ -1,0 +1,8 @@
+from utils.redis import ADMIN_KEY_PREFIX
+
+REDIS_SMS_CODE_KEY_PREFIX: str = f"{ADMIN_KEY_PREFIX}sms:code:"
+REDIS_SMS_MINUTE_KEY_PREFIX: str = f"{ADMIN_KEY_PREFIX}sms:minute:"
+REDIS_SMS_DAILY_KEY_PREFIX: str = f"{ADMIN_KEY_PREFIX}sms:daily:"
+REDIS_SLIDER_KEY_PREFIX: str = f"{ADMIN_KEY_PREFIX}slider:"
+
+
